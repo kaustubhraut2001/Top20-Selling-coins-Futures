@@ -71,7 +71,7 @@ export function useCryptoScanner() {
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetch24hrData();
-      setCoins(data.slice(0, 20)); // Get top 20 coins
+      setCoins(data.slice(0, 30)); // Get top 20 coins
     };
 
     fetchData();
