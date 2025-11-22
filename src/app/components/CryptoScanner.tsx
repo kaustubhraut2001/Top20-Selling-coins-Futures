@@ -25,7 +25,7 @@ export default function CryptoScanner() {
   return (
     <div className="w-full max-w-4xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-4 mt-6">
       <div className="border-b border-gray-200 dark:border-gray-700 pb-2 mb-4">
-        <h2 className="text-2xl font-bold text-gray-800 dark:text-white">Top 20 Coins with Continuous Selling (24-hour)</h2>
+        <h2 className="text-2xl font-bold text-gray-800 dark:text-white">Top 30 Coins with Continuous Selling (24-hour)</h2>
       </div>
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
