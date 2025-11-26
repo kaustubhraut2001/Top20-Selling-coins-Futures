@@ -36,7 +36,8 @@ interface CoinData {
 // }
 
 async function fetch24hrData(): Promise<CoinData[]> {
-  const response = await fetch("https://fapi.binance.com/fapi/v1/ticker/24hr");
+  // const response = await fetch("https://fapi.binance.com/fapi/v1/ticker/24hr");
+  const response = await fetch("https://api.binance.com/api/v3/ticker/24hr");
   // const response = await fetch(BINANCE_API_BASE)
   const data = await response.json();
 
